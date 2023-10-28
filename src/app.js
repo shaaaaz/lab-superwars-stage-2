@@ -89,3 +89,4 @@ window.onload = () => {
     viewPlayers(initPlayers(PLAYERS));
 }
 
+console.log("HWLLW")
