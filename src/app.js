@@ -33,7 +33,7 @@ const initPlayers = (players) => {
         var obj = {}
         obj.name = players[i]
         obj.strength = getRandomStrength();
-        obj.image = `../images/super-${i+1}.png`
+        obj.image = `images/super-${i+1}.png`
 
         if (i%2 == 0) {
             obj.type = "hero"
@@ -89,3 +89,4 @@ window.onload = () => {
     viewPlayers(initPlayers(PLAYERS));
 }
 
+console.log("HWLLW")
